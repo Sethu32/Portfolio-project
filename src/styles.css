@@ -1,12 +1,36 @@
+body{
+    margin: 0 auto;
+    max-height: 600px;
+}
 header{
-    background-color: rgb(231, 124, 199);
+    background-color: rgb(26, 25, 25);
+    height: 70px;
+    color: white;
 }
 h1{
     color: blueviolet;
     font-family: playfair-display;
     font-weight: bold;
 }
+a{
+    font-family: poppins;
+    text-decoration: none;
+
+}
 p{
     font-family: poppins;
-    font-weight: bold;
+    
+}
+.pages{
+    display: flex;
+    justify-content: right;
+
+}
+footer img{
+    width: 40px;
+    height: 30px;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
 }
