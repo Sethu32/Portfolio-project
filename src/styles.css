@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(231, 124, 199);
+}
+h1{
+    color: blueviolet;
+    font-family: playfair-display;
+    font-weight: bold;
+}
+p{
+    font-family: poppins;
+    font-weight: bold;
+}
