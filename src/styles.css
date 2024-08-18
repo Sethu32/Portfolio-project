@@ -6,7 +6,8 @@
     --secondary-font-family:playfair-display;
   }
 body{
-margin: auto;
+
+margin: 100px 0;
 background-color: var(--primary-color);
 }
 .navbar{
@@ -16,17 +17,17 @@ background-color: var(--primary-color);
 }
 
 
-.nav-link {
+.navigation-link {
     display: flex;
-    margin-top: 50px;
- 
+    margin-top: 40px;
+ justify-content: center;
     color:var(--primary-color);
     font-family: var(--secondary-font-family);
   }
-  .nav-link a:hover{
+  .navigation-link a:hover{
     text-decoration: underline;
   }
-  .nav-link a {
+  .navigation-link a {
     margin: 20px;
     color: var(--primary-color);
     font-family: var(--secondary-font-family);
@@ -34,13 +35,12 @@ background-color: var(--primary-color);
  
   .primary-link {
     border-radius: 4px;
-    padding: 10px 15px;
+    padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
     background: blue;
     box-shadow: var(--box-shadow);
     color: white;
-    justify-content: center;
     font-family: var(--secondary-font-family);
     
   } 
@@ -67,7 +67,7 @@ h1{
     font-weight: bold;
     text-align: center;
     font-size: 40px;
-    margin-top: 80px;
+    margin:0 ;
 }
 
 a:hover{
@@ -88,27 +88,22 @@ p {
     font-family: var(--secondary-font-family);
   }
 
-  .about-paragraphs {
-    margin: 30px 0;
-  }
-  
-  .about-paragraphs p {
-    margin: 10px;
-  }
 footer{
     background-color: var(--secondary-color);
     height: 70px;
     text-decoration: none;
+    margin-bottom: 0 auto;
 }
 footer img{
     width: 40px;
     height: 30px;
     border-radius: 10px;
+    margin-top: 20px;
 
 }
 .footer{
     display: flex;
-margin-top: 40px; 
+margin-top: 50px; 
 justify-content: space-evenly;
 }
 .social-link{
@@ -120,8 +115,25 @@ justify-content: space-evenly;
     text-decoration: underline;
 }
 
-@media (max-width:900px) {
-    .footer {
-        display: none;
-      }
-}
+@media (max-width: 576px) {
+    h1 {
+      font-size: 48px;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+  
+    .project-link {
+      display: block;
+      text-align: center;
+      margin: 0 20px;
+    }
+  }
+  
