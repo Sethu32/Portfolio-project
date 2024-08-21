@@ -42,6 +42,10 @@ background-color: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-family: var(--secondary-font-family);
+    text-align: center;
+display: block;
+margin: 0 auto;
+width: 150px;
     
   } 
   
@@ -80,6 +84,7 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 25px;
 border-radius: 500px;
+padding-top: 50px;
 }
 
 p {
@@ -87,6 +92,10 @@ p {
     line-height: 1.5;
     font-family: var(--secondary-font-family);
   }
+  .about-paragraph{
+  text-align: center;
+  padding-top: 50px;
+}
 
 footer{
     background-color: var(--secondary-color);
